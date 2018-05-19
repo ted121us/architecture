@@ -1,0 +1,7 @@
+# architecture
+
+1. Smaller code bases and teams.
+2. Datastores fronted by single service. No sharing database between services.
+3. Version major changes as separate service.
+4. Queues to support traffic spikes. 
+5. Corelation ids for debugging.
